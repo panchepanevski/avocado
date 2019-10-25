@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="resources/img/favicon.png" />
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -15,10 +16,65 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-sm bg-light navbar-dark">
-        <a href="#" class="navbar-brand" style="width: 50px;"></a>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light pr-5 pl-5">
+        <a><img src="/resources/img/logo.png" alt="Avocado Logo" />AVOCADO</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse d-lg-flex justify-content-end"
+          id="navbarNavAltMarkup"
+        >
+          <div class="navbar-nav nav-text">
+            <a class="nav-item nav-link active mr-5" href="index.html"
+              >AVOCADO <span class="sr-only">(current)</span></a
+            >
+            <a class="nav-item nav-link mr-5" href="#">BENEFITS</a>
+            <a class="nav-item nav-link mr-5" href="#">RECIPES</a>
+            <a class="nav-item nav-link disabled mr-5" href="#">HISTORY</a>
+            <a class="nav-item nav-link disabled mr-5" href="#">ONLINE ORDER</a>
+          </div>
+        </div>
       </nav>
     </header>
+    <main>
+      <section id="header-main">
+        <div class="container mt-5 mb-5">
+          <div class="row">
+            <div class="col-sm-12 col-md-6 mt-5">
+              <h1 mt-5>People Who Eat Avocados Tend to Be Healthier</h1>
+              <p mt-5>
+                One study looked at the dietary habits and health of people who
+                eat avocados. They analyzed data from 17,567 participants in the
+                NHANES survey in the US. Avocado consumers were found to be much
+                healthier than people who didn't eat this fruit.
+              </p>
+              <button type="button" class="btn btn-outline-success">
+                Discover Recipe's
+              </button>
+            </div>
+            <div class="col">
+              <img
+                src="/resources/img/avocado-header.png"
+                alt="avocado photo"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="benefits" class="bg-light">
+        <h1>12 Proven Health Benefits of Avocado</h1>
+      </section>
+    </main>
 
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
